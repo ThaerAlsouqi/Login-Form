@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:aliceblue;
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.592);
+    width: 400px;
+    margin:50px auto;
+}
+.f-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.m-header{
+    display: flex;
+    justify-content: center;
+}
+input[type="text"],
+input[type="password"]{
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.show-password-label {
+    margin-right: 160px;
+    margin-bottom: 25px;
+}
+.f-flex button{
+    padding: 16px 60px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.f-flex button:hover{
+    background-color: rgb(0, 149, 255);
+}
+.user-logo img{
+    width: 150px;  
+}
+.forgot-pass{
+    margin-top: 12px;
+}
+.forgot-pass a{
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.text-danger {
+    color:red;
+}
